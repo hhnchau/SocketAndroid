@@ -28,4 +28,24 @@
         android:layout_margin="4dp"
         android:onClick="client"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="SERVER2"
+        android:gravity="center"
+        android:padding="8dp"
+        android:onClick="server2"
+        android:layout_margin="4dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="CLIENT2"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_margin="4dp"
+        android:onClick="client2"/>
+
 </LinearLayout>

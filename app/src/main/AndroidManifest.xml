@@ -19,7 +19,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".Server" />
-        <activity android:name=".Client"></activity>
+        <activity android:name=".Client"/>
+        <activity android:name=".v2.ActivityServer"/>
+        <activity android:name=".v2.ActivityClient"/>
     </application>
 
 </manifest>

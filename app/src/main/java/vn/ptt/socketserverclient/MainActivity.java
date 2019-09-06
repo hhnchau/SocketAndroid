@@ -5,6 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import vn.ptt.socketserverclient.v2.ActivityClient;
+import vn.ptt.socketserverclient.v2.ActivityServer;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -19,5 +22,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void client(View view) {
         startActivity(new Intent(this, Client.class));
+    }
+
+    public void server2(View view) {
+        startActivity(new Intent(this, ActivityServer.class));
+    }
+
+    public void client2(View view) {
+        startActivity(new Intent(this, ActivityClient.class));
     }
 }

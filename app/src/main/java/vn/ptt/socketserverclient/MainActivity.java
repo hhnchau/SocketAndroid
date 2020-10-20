@@ -7,6 +7,8 @@ import android.view.View;
 
 import vn.ptt.socketserverclient.v2.ActivityClient;
 import vn.ptt.socketserverclient.v2.ActivityServer;
+import vn.ptt.socketserverclient.v3.ClientSocket;
+import vn.ptt.socketserverclient.v3.SocketServer;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,5 +32,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void client2(View view) {
         startActivity(new Intent(this, ActivityClient.class));
+    }
+
+    public void server3(View view) {
+        startActivity(new Intent(this, SocketServer.class));
+    }
+
+    public void client3(View view) {
+        startActivity(new Intent(this, ClientSocket.class));
     }
 }

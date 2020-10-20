@@ -34,6 +34,18 @@
         android:layout_marginTop="20dp"
         android:text="Connect..." />
 
+    <EditText
+        android:id="@+id/input"
+        android:hint="Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"/>
+
     <Button
         android:id="@+id/clearButton"
         android:layout_width="match_parent"

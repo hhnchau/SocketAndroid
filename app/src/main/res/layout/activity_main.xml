@@ -48,4 +48,24 @@
         android:layout_margin="4dp"
         android:onClick="client2"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="SERVER3"
+        android:gravity="center"
+        android:padding="8dp"
+        android:onClick="server3"
+        android:layout_margin="4dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="CLIENT3"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_margin="4dp"
+        android:onClick="client3"/>
+
 </LinearLayout>

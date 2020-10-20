@@ -54,7 +54,7 @@ public class Client extends AppCompatActivity {
             public void run() {
 
                 try {
-                    Socket s = new Socket("192.168.200.134", 9002);
+                    Socket s = new Socket("192.168.1.34", 9002);
 
                     OutputStream out = s.getOutputStream();
 

@@ -114,7 +114,7 @@ public class Server extends AppCompatActivity {
             public void run() {
 
                 try {
-                    Socket s = new Socket("192.168.200.135", 9002);
+                    Socket s = new Socket("192.168.1.35", 9002);
 
                     OutputStream out = s.getOutputStream();
 

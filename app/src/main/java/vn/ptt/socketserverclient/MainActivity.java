@@ -41,4 +41,12 @@ public class MainActivity extends AppCompatActivity {
     public void client3(View view) {
         startActivity(new Intent(this, ClientSocket.class));
     }
+
+    public void server4(View view) {
+        startActivity(new Intent(this, vn.ptt.socketserverclient.v4.ActivityServer.class));
+    }
+
+    public void client4(View view) {
+        startActivity(new Intent(this, vn.ptt.socketserverclient.v4.ActivityClient.class));
+    }
 }

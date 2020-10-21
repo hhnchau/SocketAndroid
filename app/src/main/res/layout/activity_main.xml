@@ -1,71 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    android:padding="16dp"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
-        android:text="SERVER"
+        android:layout_height="match_parent"
         android:gravity="center"
-        android:padding="8dp"
-        android:onClick="server"
-        android:layout_margin="4dp"/>
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
-        android:text="CLIENT"
-        android:gravity="center"
-        android:padding="8dp"
-        android:layout_margin="4dp"
-        android:onClick="client"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:onClick="server"
+            android:padding="8dp"
+            android:text="SERVER" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
-        android:text="SERVER2"
-        android:gravity="center"
-        android:padding="8dp"
-        android:onClick="server2"
-        android:layout_margin="4dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:onClick="client"
+            android:padding="8dp"
+            android:text="CLIENT" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
-        android:text="CLIENT2"
-        android:gravity="center"
-        android:padding="8dp"
-        android:layout_margin="4dp"
-        android:onClick="client2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:onClick="server2"
+            android:padding="8dp"
+            android:text="SERVER2" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
-        android:text="SERVER3"
-        android:gravity="center"
-        android:padding="8dp"
-        android:onClick="server3"
-        android:layout_margin="4dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:onClick="client2"
+            android:padding="8dp"
+            android:text="CLIENT2" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
-        android:text="CLIENT3"
-        android:gravity="center"
-        android:padding="8dp"
-        android:layout_margin="4dp"
-        android:onClick="client3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:onClick="server3"
+            android:padding="8dp"
+            android:text="SERVER3" />
 
-</LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:onClick="client3"
+            android:padding="8dp"
+            android:text="CLIENT3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:onClick="server4"
+            android:padding="8dp"
+            android:text="SERVER4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:onClick="client4"
+            android:padding="8dp"
+            android:text="CLIENT4" />
+
+    </LinearLayout>
+
+
+</ScrollView>

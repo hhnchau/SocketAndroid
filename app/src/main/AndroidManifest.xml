@@ -24,6 +24,8 @@
         <activity android:name=".v2.ActivityClient"/>
         <activity android:name=".v3.SocketServer"/>
         <activity android:name=".v3.ClientSocket"/>
+        <activity android:name=".v4.ActivityServer"/>
+        <activity android:name=".v4.ActivityClient"/>
     </application>
 
 </manifest>
